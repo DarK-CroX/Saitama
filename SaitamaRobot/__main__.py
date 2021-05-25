@@ -73,24 +73,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+**𝙷𝚎𝚢 {}**! 𝙸 𝙰𝚖 𝚂𝚞𝚛𝚎 𝚈𝚘𝚞 𝚆𝚘𝚞𝚕𝚍 𝙰𝚕𝚛𝚎𝚊𝚍𝚢 𝙺𝚗𝚘𝚠 𝙼𝚎, **𝚈𝚊𝚝𝚘 𝚃𝚑𝚎 𝙶𝚘𝚍**!
+𝙸 𝙰𝚖 𝙰𝚗 **𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝**.
+𝙱𝚞𝚒𝚕𝚍 𝙱𝚢 𝚆𝚎𝚎𝚋𝚜 𝙵𝚘𝚛 𝚆𝚎𝚎𝚋𝚜 𝙸 𝚂𝚙𝚎𝚌𝚒𝚊𝚕𝚒𝚣𝚎 𝙸𝚗 𝙼𝚊𝚗𝚊𝚐𝚒𝚗𝚐 𝙰𝚗𝚒𝚖𝚎 𝙰𝚗𝚍 𝚂𝚒𝚖𝚒𝚕𝚊𝚛 𝚃𝚑𝚎𝚖𝚎𝚍 𝙶𝚛𝚘𝚞𝚙𝚜!
+𝚄𝚜𝚎 /𝚑𝚎𝚕𝚙 𝚃𝚘 𝙺𝚗𝚘𝚠 𝙼𝚘𝚛𝚎 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎 𝙰𝚗𝚍 𝚂𝚎𝚔𝚔𝚒!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
-
-*Main* commands available:
+Hai! You Want Help? I, **The Yato God** Will Help You Out!
+I'm An Anime Themed Group Management Bot Which Helps You Manage groups With Lot Of Fun <3\nHave a look at the following for an idea of some of
+the things I and Sekki can help you with.
+Main commands available:
+ • /start: Starts me, can be used to check I'm alive or not.
  • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
  • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   - in PM: will send you your settings for all supported modules.
+   - in a group: will redirect you to pm, with all that chat's settings.
+ Click on the buttons below to get documentation about specific modules!
 
 
 {}
@@ -102,10 +101,7 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+DONATE_STRING = """I, God Yato Want My Own Shrine!\nI Can Do Anything For it!!\n\nBut It Will BE A Shrine For Me If You Add Me To Your Group!\nSo No Need To Donate! You Can Just Add Me To Groups Instead :)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
